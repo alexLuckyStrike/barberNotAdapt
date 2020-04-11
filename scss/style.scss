@@ -1,14 +1,12 @@
 @import "globals/fonts.scss";
 @import "globals/visually-hidden.scss";
 
-
 *{
   padding:0;
   margin: 0;
 }
 
-
-body{
+.main-page{
   font-family: "PT Sans Narrow",Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
@@ -20,8 +18,6 @@ body{
   background-repeat:no-repeat;
   background-position: top center;
 }
-
-
 
 a{
   text-decoration:none;
@@ -43,6 +39,7 @@ a{
 
 .main-header{
   width:100%;
+
 }
 
 .wrapper{
@@ -56,6 +53,7 @@ a{
   margin:auto;
   line-height: 20px;
   display:flex;
+
 }
 
 .main-menu,
@@ -103,7 +101,6 @@ a{
 .user-menu__element a:focus {
   background-color:#242424;
 }
-
 
 .user-menu{
   margin-left: auto;
@@ -585,7 +582,6 @@ transform:rotate(45deg);
   100% {transform:translateY(-1000px)}
 }
 
-
 .modal--appear{
   display:block;
   animation-name:bounce;
@@ -596,6 +592,135 @@ transform:rotate(45deg);
   animation-name:shake;
   animation-duration:0.6s;
 }
+
+//стили карточки товара-----------
+
+.item-page{
+  font-family: "PT Sans Narrow",Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-sizing: border-box;
+
+}
+
+.logo{
+  width:111px;
+  height: 24px;
+  margin-top: 24px;
+  margin-right: 30px;
+}
+
+
+.cage{
+  width:960px;
+  margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  padding-top: 45px;
+}
+
+.item-page{
+  background: url('../img/backSect.png') repeat;
+  background-color: rgb(255,255,255);
+}
+
+.item-page__state{
+  font-size:30px;
+  line-height: 42px;
+  margin-bottom: 23px;
+}
+
+.breadcrumbs__item{
+  list-style: none;
+}
+
+.breadcrumbs__item a{
+  color:rgb(0,0,0);
+}
+
+.product-info__state{
+  font-size:24px;
+  line-height: 30px;
+}
+
+.product-article{
+color:rgb(174,174,174);
+}
+
+.product-price{
+font-size: 0;
+}
+
+.product-price b{
+  background-color:rgb(229,229,229);
+  padding:13px 33px 13px 37px;
+  font-size: 14px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.product-price a{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.product-text{
+  margin-bottom: 35px;
+}
+
+.breadcrumbs{
+  width:621px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:58px;
+}
+
+.item-photo{
+  width:460px;
+
+}
+
+.photo-review{
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-review__element{
+  list-style: none;
+}
+
+.goods li{
+  list-style: none;
+}
+
+.product-info{
+  width:390px;
+}
+
+.product-info__state{
+  margin-top: 65px;
+  margin-bottom:35px;
+}
+
+.center-position{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 49px;
+}
+
+.align-position{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+
+
+
 
 
 

@@ -19,13 +19,12 @@ function Sass(){
         .pipe(server.stream())
 }
 
-
 function Server(){
     server.init({server:"./"});
     gulp.watch('scss/style.scss',gulp.series(Sass))
 }
 
-
 exports.start = series(Sass,Server);
+
 
 

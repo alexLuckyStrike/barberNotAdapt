@@ -20,7 +20,7 @@ function Sass(){
 }
 
 function Server(){
-    server.init({server:"./"});
+    server.init({server:"./",browser:'chrome'});
     gulp.watch('scss/style.scss',gulp.series(Sass))
 }
 

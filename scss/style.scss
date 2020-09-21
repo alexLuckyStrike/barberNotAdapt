@@ -572,6 +572,10 @@ transform:rotate(45deg);
   position:relative;
 }
 
+.modal-map__frame iframe{
+  border:none;
+}
+
 .modal-map__close{
   position:absolute;
   width:21px;

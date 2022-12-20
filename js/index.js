@@ -1,6 +1,5 @@
 
 (function() {
-
     let entrance = document.querySelector('.user-menu__ref');
     let popup = document.querySelector('.modal');
     let close = document.querySelector('.modal-close');
@@ -18,6 +17,7 @@
         }
     });
 
+
     close.addEventListener('click', function (e) {
         e.preventDefault();
         popup.classList.remove('modal--appear');
@@ -28,7 +28,7 @@
         if (!login.value || !psw.value) {
             e.preventDefault();
             form.classList.remove('modal-error');
-            popup.offsetHeight = popup.offsetHeight;
+            // popup.offsetHeight = popup.offsetHeight;
             form.classList.add('modal-error');
         } else {
             localStorage.setItem('login', login.value);

@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0faf8da5-379c-4511-b814-e5add8685755" name="Default Changelist" comment="внутренние страницы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +36,10 @@
     <property name="SearchEverywhereHistoryKey" value="modal-map__close&#9;null&#9;null&#10;modal-map&#9;null&#9;null&#10;modal-login&#9;null&#9;null&#10;modal&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../technomart" />
-    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../../Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -139,6 +135,9 @@
       <workItem from="1598730500848" duration="50000" />
       <workItem from="1600691423920" duration="23000" />
       <workItem from="1600694669234" duration="1590000" />
+      <workItem from="1600938973008" duration="624000" />
+      <workItem from="1602419257369" duration="181000" />
+      <workItem from="1605449481671" duration="108000" />
     </task>
     <servers />
   </component>
@@ -155,11 +154,11 @@
     <state x="1722" y="166" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1152.824@1366.0.1152.824" timestamp="1593859808605" />
     <state x="422" y="147" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594041754820" />
     <state x="422" y="147" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593908841078" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600695090786">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602419329708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1152.824@0.0.1366.728" timestamp="1597926559693" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594041440809" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600695090786" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602419329708" />
   </component>
 </project>
